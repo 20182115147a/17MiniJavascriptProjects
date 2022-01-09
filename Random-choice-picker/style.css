@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: cyan;
+}
+.container {
+    width: 500px;
+}
+h3 {
+    
+    text-align: center;
+    margin-bottom: 15px;
+    color: #Fff;
+    font-size: 20px;
+}
+textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    height: 100px;
+    outline: none;
+} 
+span {
+    margin: 15px 5px 0 0;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 20px;
+    display: inline-block;
+}  
+.highlight{
+    background-color: palevioletred;
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 100, 223);
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 1.5rem 2.5rem;
+    color: #fff;
+    background-color: rebeccapurple;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+.btn:active{
+    transform: scale(.98);
+}

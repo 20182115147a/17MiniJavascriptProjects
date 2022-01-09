@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border-color: rgb(3, 166, 207);
+    --full-color: rgb(0, 108, 180);
+}
+body{
+    font-family:cambria;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    margin: 15px 0;
+}
+h3 {
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cup{
+    background-color: #fff;
+    border: 4px solid var(--border-color);
+    width: 150px;
+    color: var(--border-color);
+    border-radius: 0 0 40px 40px;
+    height: 330px;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cups {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+}
+.cup.cup-small {
+    height: 95px;
+    width: 50px;
+    cursor: pointer;
+}
+.remained {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.litter {
+    font-size: 25px;
+    font-weight: bold;
+}
+.percentage {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    background-color: var(--full-color);
+}
+.cup.cup-small.full {
+    background-color:var(--full-color) ;
+    color: #fff;
+}

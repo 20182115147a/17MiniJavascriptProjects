@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: helvetica;
+    align-items: center;
+}
+.container {
+    display: flex;
+    color: #fff;
+}
+.counter-container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        margin: 15px 30px;
+}
+.counter {
+    margin-top: 20px;
+    font-size: 60px;
+}
+@media (max-width:550px){
+    .container {
+        flex-direction: column;
+    }
+}
